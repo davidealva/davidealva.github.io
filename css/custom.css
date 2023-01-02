@@ -1,0 +1,115 @@
+body, p, a{
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif !important;
+}
+
+h6 {
+  margin-bottom: 2em !important;
+}
+
+.parallax > .background-image-holder, .parallax .slides li > .background-image-holder {
+  height: 70vh;
+}
+
+.nav-bar {
+  box-shadow: none;
+}
+
+.nav-module.left {
+  line-height: 4em !important;
+}
+.nav-module a {
+  text-transform: uppercase;
+  font-weight: 200;
+  /* margin-left: 40px; */
+}
+
+.nav-modal .menu > li {
+  text-align: left !important;
+}
+
+.nav-modal .menu > li > a span {
+  font-weight: lighter;
+}
+
+.nav-modal .menu > li:not(:last-child) {
+    margin-bottom: 0.75em;
+}
+
+.nav-modal .menu {
+  margin-left: 20px;
+}
+
+.video-cover {
+  margin-bottom: 2em;
+}
+
+.pos-vertical-center {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 0px;
+}
+
+.page-title p {
+  font-size: 2em;
+  font-weight: 200;
+  color: #000;
+  letter-spacing: 0.124em;
+  line-height: 1.8em;
+}
+
+.project-single-stacked {
+  padding-top: 0em !important;
+  transition-duration: 250ms !important;
+}
+
+.lead {
+  margin-bottom: 2em !important;
+}
+
+section {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+section.about-header {
+  padding-top: 2em !important;
+}
+
+.cv-skill p {
+  margin-bottom: .75em !important;
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+.cv-skill p a {
+  margin-bottom: .75em !important;
+  text-decoration: none !important;
+  color: #767676;
+  font-weight: 300;
+}
+
+.cv-skill h4 {
+  font-weight: normal;
+}
+
+footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+@media all and (max-width: 767px) {
+  .nav-modal .modal-content .pos-vertical-center {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .nav-modal .menu {
+    margin-left: 0px;
+  }
+  .pos-vertical-center {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .page-title p {
+    font-size: 1.5em;
+  }
+}
